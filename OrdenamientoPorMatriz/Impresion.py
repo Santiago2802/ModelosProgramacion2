@@ -15,3 +15,7 @@ def main():
 
 
 main()
+
+#Gabriel Esteban Castillo Ramirez
+#Omar Alejandro Espitia Sanchez
+#Juan Camilo Martinez Lopez
