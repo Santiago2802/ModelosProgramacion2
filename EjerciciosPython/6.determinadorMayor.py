@@ -5,7 +5,7 @@ def determinarMayor(arreglo):
     return determinarMayor(arreglo[1:])
 
 def main():
-    l=[1,2,3,9,5,6,7]
+    l=[78,24,56,93,21,237,46,74,125]
     print(determinarMayor(l))
 
 main()
