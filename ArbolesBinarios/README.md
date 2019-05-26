@@ -20,6 +20,8 @@ arbol = nodo(25, nodo(10, nodo(5), nodo(18)), nodo(40, None, nodo(50)))
 Gráficamente el árbol es el siguiente:
 <h1>Imagen de arbol.jpg</h1>
 Como se puede ver, hay diferencias claras entre la creación de nodos con y sin enlaces.
+
+
 #### Búsqueda de elementos en un árbol binario
 La función a definir la búsqueda de un nodo en el árbol binario tendrá como discriminante el valor dentro de él:
 ```
