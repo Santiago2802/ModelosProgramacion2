@@ -15,7 +15,7 @@ class nodo:
 #### Creación de un árbol binario
 La creación de un árbol, basandonos en el código anterior, se verá claramente con el siguiente ejemplo:
 ```python
-arbol = nodo(25, nodo(10, nodo(5), nodo(18)), nodo(40, None, nodo(50)))                                                        
+arbol = nodo(25, nodo(10, nodo(5), nodo(18)), nodo(40, None, nodo(50)))
 ```
 Gráficamente el árbol es el siguiente:
 
