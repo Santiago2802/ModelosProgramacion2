@@ -14,7 +14,7 @@ class nodo:
 * Sus enlaces por defecto serán nulos, lo único que siempre necesita es un valor.
 #### Creación de un árbol binario
 La creación de un árbol, basandonos en el código anterior, se verá claramente con el siguiente ejemplo:
-```
+```python
 arbol = nodo(25, nodo(10, nodo(5), nodo(18)), nodo(40, None, nodo(50)))                                                        
 ```
 Gráficamente el árbol es el siguiente:
@@ -24,7 +24,7 @@ Como se puede ver, hay diferencias claras entre la creación de nodos con y sin 
 
 #### Búsqueda de elementos en un árbol binario
 La función a definir la búsqueda de un nodo en el árbol binario tendrá como discriminante el valor dentro de él:
-```
+```python
 def buscar(arbol, valor):
     #Condiciones de Rompimiento de la recursividad
     if arbol == None:
@@ -40,7 +40,7 @@ def buscar(arbol, valor):
 #### Suma de los valores del árbol
 Una operación entre nodos nos ayudará a relacionarlos entre sí para ejemplificar el manejo de información que
 podemos realizar con árboles binarios:
-```
+```python
 def sumar(arbol):
     if arbol == None:
         return 0
@@ -50,7 +50,7 @@ El uso de la recursividad, podemos ver que se realiza desde la raíz hasta las h
 #### Listando los nodos del árbol
 Los elementos del árbol, los podemos conocer a través de una lista con sus valores, para asi conocer toda la 
 información que el árbol guarda.
-```
+```python
 def a_lista(arbol):
     if arbol == None:
         return []
@@ -59,7 +59,7 @@ def a_lista(arbol):
 Nuevamente vemos el recorrido descendente que realiza la recursividad.
 #### Agregando un nodo a la lista
 Como vemos, el árbol se ordena de manera tal que, al agregar un nodo se debe colocar en orden numérico:
-```
+```python
 def agregarNodo(arbol,valor):
 
     if arbol.valor == valor:
@@ -98,7 +98,7 @@ función realizada anteriormente, ya que es idónea para esta situacion.
 El uso de dos funciones se hace necesario debido a los dos criterios a manejar:
 1. La agregación continua de nodos al árbol.
 2. El paso de valores de la lista para crear el árbol nodo a nodo.
-```	
+```python	
 #Agrega los nodos en la creación del árbol
 def agregarElemento(arbol, valor):
     if arbol == None:
