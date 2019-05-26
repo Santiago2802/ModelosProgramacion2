@@ -10,8 +10,8 @@ class nodo:
         self.izquierda = izquierda
         self.derecha = derecha
 ```
-*Árboles binarios solo podrán contar con dos elementos como máximo, en este caso son  izquierda y derecha.
-*Sus enlaces por defecto serán nulos, lo único que siempre necesita es un valor.
+* Árboles binarios solo podrán contar con dos elementos como máximo, en este caso son  izquierda y derecha.
+* Sus enlaces por defecto serán nulos, lo único que siempre necesita es un valor.
 #### Creación de un árbol binario
 La creación de un árbol, basandonos en el código anterior, se verá claramente con el siguiente ejemplo:
 ```
