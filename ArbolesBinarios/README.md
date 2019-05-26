@@ -123,8 +123,8 @@ Al analizar la segunda función, veremos que:
  
 Finalmente veremos en la función main() unas pruebas para probar cada función y comprobar lo dicho anteriormente.
 
-# Gabriel Esteban Castillo Ramirez
-# Omar Alejandro Espitia Sanchez
-# Juan Camilo Martinez Lopez
+#### Gabriel Esteban Castillo Ramirez
+#### Omar Alejandro Espitia Sanchez
+#### Juan Camilo Martinez Lopez
 
 
