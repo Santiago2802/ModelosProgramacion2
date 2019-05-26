@@ -1,7 +1,7 @@
-#Arboles Binarios :shipit:
-##El uso de árboles es una herramienta útil en el manejo de información homogénea
-###Uso de árboles binarios a través de código en Python
-####Estructura de un nodo
+# Arboles Binarios :shipit:
+## El uso de árboles es una herramienta útil en el manejo de información homogénea
+### Uso de árboles binarios a través de código en Python
+#### Estructura de un nodo
 Para la determinación de un árbol binario realizaremos la estructuración de sus nodos:
 ```
 class nodo:
@@ -12,7 +12,7 @@ class nodo:
 ```
 *Árboles binarios solo podrán contar con dos elementos como máximo, en este caso son  izquierda y derecha.
 *Sus enlaces por defecto serán nulos, lo único que siempre necesita es un valor.
-####Creación de un árbol binario
+#### Creación de un árbol binario
 La creación de un árbol, basandonos en el código anterior, se verá claramente con el siguiente ejemplo:
 ```
 arbol = nodo(25, nodo(10, nodo(5), nodo(18)), nodo(40, None, nodo(50)))                                                        
@@ -20,7 +20,7 @@ arbol = nodo(25, nodo(10, nodo(5), nodo(18)), nodo(40, None, nodo(50)))
 Gráficamente el árbol es el siguiente:
 <h1>Imagen de arbol.jpg</h1>
 Como se puede ver, hay diferencias claras entre la creación de nodos con y sin enlaces.
-####Búsqueda de elementos en un árbol binario
+#### Búsqueda de elementos en un árbol binario
 La función a definir la búsqueda de un nodo en el árbol binario tendrá como discriminante el valor dentro de él:
 ```
 def buscar(arbol, valor):
@@ -35,7 +35,7 @@ def buscar(arbol, valor):
     #Se dirige a la izquierda si es mayor
     return buscar(arbol.izquierda, valor)
 ```
-####Suma de los valores del árbol
+#### Suma de los valores del árbol
 Una operación entre nodos nos ayudará a relacionarlos entre sí para ejemplificar el manejo de información que
 podemos realizar con árboles binarios:
 ```
@@ -45,7 +45,7 @@ def sumar(arbol):
     return sumar(arbol.izquierda)+arbol.valor+sumar(arbol.derecha)
 ```
 El uso de la recursividad, podemos ver que se realiza desde la raíz hasta las hojas.
-####Listando los nodos del árbol
+#### Listando los nodos del árbol
 Los elementos del árbol, los podemos conocer a través de una lista con sus valores, para asi conocer toda la 
 información que el árbol guarda.
 ```
@@ -55,7 +55,7 @@ def a_lista(arbol):
     return a_lista(arbol.izquierda)+[arbol.valor]+a_lista(arbol.derecha)
 ```
 Nuevamente vemos el recorrido descendente que realiza la recursividad.
-####Agregando un nodo a la lista
+#### Agregando un nodo a la lista
 Como vemos, el árbol se ordena de manera tal que, al agregar un nodo se debe colocar en orden numérico:
 ```
 def agregarNodo(arbol,valor):
@@ -90,7 +90,7 @@ Si analizamos esta recursividad veremos los siguiente:
 * Cada retorno en donde se  realiza la recursividad, tiene presente al nodo usando la misma creación
   de un nodo, puesto que en sus parametros hacemos referencia a su valor y enlaces, por lo tanto,
   sabremos que no perdemos ni valores ni enlaces del árbol en nuestros llamados recursivos. 
-####Creando árboles binarios a través de listas
+#### Creando árboles binarios a través de listas
 Para crear un árbol binario a través de una función cuyo único parámetro sea una lista, usaremos la 
 función realizada anteriormente, ya que es idónea para esta situacion.
 El uso de dos funciones se hace necesario debido a los dos criterios a manejar:
@@ -121,8 +121,8 @@ Al analizar la segunda función, veremos que:
  
 Finalmente veremos en la función main() unas pruebas para probar cada función y comprobar lo dicho anteriormente.
 
-#Gabriel Esteban Castillo Ramirez
-#Omar Alejandro Espitia Sanchez
-#Juan Camilo Martinez Lopez
+# Gabriel Esteban Castillo Ramirez
+# Omar Alejandro Espitia Sanchez
+# Juan Camilo Martinez Lopez
 
 
