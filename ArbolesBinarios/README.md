@@ -3,7 +3,7 @@
 ### Uso de árboles binarios a través de código en Python
 #### Estructura de un nodo
 Para la determinación de un árbol binario realizaremos la estructuración de sus nodos:
-```
+```python
 class nodo:
     def __init__(self, valor, izquierda=None, derecha=None):
         self.valor = valor
