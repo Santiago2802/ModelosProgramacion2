@@ -18,7 +18,11 @@ La creación de un árbol, basandonos en el código anterior, se verá clarament
 arbol = nodo(25, nodo(10, nodo(5), nodo(18)), nodo(40, None, nodo(50)))                                                        
 ```
 Gráficamente el árbol es el siguiente:
-<img src="https://user-images.githubusercontent.com/43209755/58387777-5e1bf780-7fda-11e9-8ff6-ae4898618c65.png" width="48">
+
+
+<img src="https://user-images.githubusercontent.com/43209755/58387777-5e1bf780-7fda-11e9-8ff6-ae4898618c65.png" width="350">
+
+
 Como se puede ver, hay diferencias claras entre la creación de nodos con y sin enlaces.
 
 
